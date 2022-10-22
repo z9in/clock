@@ -1,0 +1,97 @@
+.container {
+    background-color: lightblue;
+    max-width:1000px;
+    max-height: 600px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid red;
+}
+.image {
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    color: white;
+    
+}  
+.imgBox {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+}
+h2 {
+    margin-bottom: 1.2%;
+    font-size: 150%;
+}
+ul {
+    padding-left: 1.3%;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 1%;
+    font-size: 110%;
+}
+.date {
+    width: 35%;
+    height: 30%;
+    align-self: flex-end;
+    font-size: 300%;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.dateref {
+    font-size: 200%;
+}
+.clock {
+    width: 50%;
+    height: 35%;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.hourBox, .minBox {
+    width: 40%;
+    height: 80%;
+    display: flex;
+}
+.secBox {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    border-radius: 10px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    margin-bottom: 6%;
+}
+.numBox {
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.numBoxH, .numBoxM, .numBoxS {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.numH1, .numH2, .numM1, .numM2, .numS1, .numS2 {
+    background-color: black;
+    width: 22%;
+    height: 90%;
+    border-radius: 0%;
+}

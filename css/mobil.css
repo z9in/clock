@@ -1,0 +1,94 @@
+.container {
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    width: 100%;
+    height: 40%;
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    order: 1;
+    box-sizing: border-box;
+    padding: 5%;
+    color: white;
+    
+}  
+.imgBox {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+ul {
+    padding-left: 5px;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.date {
+    width: 100%;
+    height: 20%;
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    order: 0;
+}
+.dateref {
+    font-size: 2em;
+}
+.clock {
+    width: 100%;
+    height: 25%;
+    justify-self: flex-end;
+    order: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.hourBox, .minBox {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    border-radius: 10px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+
+}
+.secBox {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    margin-bottom: 6%;
+
+}
+.numBox {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.numBoxH, .numBoxM, .numBoxS {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.numH1, .numH2, .numM1, .numM2, .numS1, .numS2 {
+    background-color: black;
+    width: 22%;
+    height: 90%;
+    border-radius: 0%;
+}
