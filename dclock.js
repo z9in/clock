@@ -515,9 +515,29 @@ function changeText(i) {
         document.getElementById('p4').innerHTML=`<del>퇴실 체크</del> 완료!!`
     }
 }
-console.log(screen.width)
+setInterval(function() {
+    let d=new Date();
+    let ms=d.getSeconds();
+     let color = ["red","orange","yellow","green","blue","navy","violet"];
+     for(i=0;i<ms;i++) {
+         document.getElementsByClassName('msBox')[i%10].style.backgroundColor=color[i%7]
+     }
+ }
+ , 1000) 
 
+ 
 
+ setInterval(function() {
+    let d=new Date();
+    let h=d.getHours()
+    if(h<6||18<h) {
+        document.getElementsByClassName('imgBox')[0].setAttribute("src", "../images/img2.jpg")
+    }else {
+        document.getElementsByClassName('imgBox')[0].setAttribute("src", "../images/img1.jpg")
+    }
+
+ }
+ )
 
 
 document.cookie = "safeCookie1=foo; SameSite=Lax"; 
