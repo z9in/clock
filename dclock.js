@@ -531,12 +531,12 @@ setInterval(function() {
     let d=new Date();
     let h=d.getHours()
     if(h<6||18<h) {
-        document.getElementsByClassName('imgBox')[0].setAttribute("src", "../images/img2.jpg")
+        document.getElementsByClassName('imgBox')[0].setAttribute("src", "images/img2.jpg")
     }else {
-        document.getElementsByClassName('imgBox')[0].setAttribute("src", "../images/img1.jpg")
+        document.getElementsByClassName('imgBox')[0].setAttribute("src", "images/img1.jpg")
     }
 
- }
+ }, 1000
  )
 
 
