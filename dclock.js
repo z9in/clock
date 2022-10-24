@@ -456,7 +456,7 @@ function time(a,b,c) {
     let h=date.getHours();
     let m=date.getMinutes();
     let s=date.getSeconds();
-        DgNum10(a,Math.floor(h/10),"black");
+        DgNum10(a,Math.floor((h-12)/10),"black");
         DgNum1(a,h%10,"black");
         DgNum10(b,Math.floor(m/10),"black");
         DgNum1(b,m%10,"black");
