@@ -459,7 +459,7 @@ function time(a,b,c) {
         DgNum10(a,Math.floor(0),"black");
         DgNum1(a,h%10,"black");
       }else {
-        DgNum10(a,Math.floor(0),"black");
+        DgNum10(a,Math.floor(1),"black");
         DgNum1(a,h%10,"black");
       }
         DgNum10(b,Math.floor(m/10),"black");
