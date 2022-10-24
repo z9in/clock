@@ -449,15 +449,19 @@ function DgNum10(a,b,color) {
         a.item(19).style.visibility = "visible";            
     }
 }
-
 // 시간 함수
 function time(a,b,c) {
     let date = new Date();
     let h=date.getHours();
     let m=date.getMinutes();
     let s=date.getSeconds();
-        DgNum10(a,Math.floor((h-12)/10),"black");
+      if(h<12) {
+        DgNum10(a,Math.floor(0),"black");
         DgNum1(a,h%10,"black");
+      }else {
+        DgNum10(a,Math.floor(0),"black");
+        DgNum1(a,h%10,"black");
+      }
         DgNum10(b,Math.floor(m/10),"black");
         DgNum1(b,m%10,"black");
         DgNum10(c,Math.floor(s/10),"black");
