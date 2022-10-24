@@ -448,126 +448,124 @@ function DgNum10(a,b,color) {
         a.item(18).style.visibility = "visible";
         a.item(19).style.visibility = "visible";            
     }
-  function ampm(a,b,c) {
-            a=document.querySelectorAll(`ap${a}`)
-            if(b>11) {
-                a.item(0).style.visibility = "hidden";
-                a.item(1).style.visibility = "hidden";
-                a.item(2).style.visibility = "visible";
-                a.item(3).style.visibility = "hidden";
-                a.item(4).style.visibility = "hidden";
-
-                a.item(5).style.visibility = "hidden";
-                a.item(6).style.visibility = "visible";
-                a.item(7).style.visibility = "hidden";
-                a.item(8).style.visibility = "visible";
-                a.item(9).style.visibility = "hidden";
-                
-                a.item(10).style.visibility = "hidden";
-                a.item(11).style.visibility = "visible";
-                a.item(12).style.visibility = "hidden";
-                a.item(13).style.visibility = "visible";
-                a.item(14).style.visibility = "hidden";
-                
-                a.item(15).style.visibility = "visible";
-                a.item(16).style.visibility = "hidden";
-                a.item(17).style.visibility = "hidden";
-                a.item(18).style.visibility = "hidden";
-                a.item(19).style.visibility = "visible";
-                
-                a.item(20).style.visibility = "visible";
-                a.item(21).style.visibility = "hidden";
-                a.item(22).style.visibility = "hidden";
-                a.item(23).style.visibility = "hidden";
-                a.item(24).style.visibility = "visible";
-            }else {
-                a.item(0).style.visibility = "visible";
-                a.item(1).style.visibility = "visible";
-                a.item(2).style.visibility = "visible";
-                a.item(3).style.visibility = "visible";
-                a.item(4).style.visibility = "visible";
-
-                a.item(5).style.visibility = "visible";
-                a.item(6).style.visibility = "hidden";
-                a.item(7).style.visibility = "hidden";
-                a.item(8).style.visibility = "hidden";
-                a.item(9).style.visibility = "visible";
-                
-                a.item(10).style.visibility = "visible";
-                a.item(11).style.visibility = "visible";
-                a.item(12).style.visibility = "visible";
-                a.item(13).style.visibility = "visible";
-                a.item(14).style.visibility = "visible";
-                
-                a.item(15).style.visibility = "visible";
-                a.item(16).style.visibility = "hidden";
-                a.item(17).style.visibility = "hidden";
-                a.item(18).style.visibility = "hidden";
-                a.item(19).style.visibility = "hidden"; 
-                
-                a.item(20).style.visibility = "visible";
-                a.item(21).style.visibility = "hidden";
-                a.item(22).style.visibility = "hidden";
-                a.item(23).style.visibility = "hidden";
-                a.item(24).style.visibility = "hidden";
-            }
-
-        }
-        function apm(a,b) {
-            a=document.querySelectorAll(`apm${a}`)
-                a.item(0).style.visibility = "visible";
-                a.item(1).style.visibility = "hidden";
-                a.item(2).style.visibility = "hidden";
-                a.item(3).style.visibility = "hidden";
-                a.item(4).style.visibility = "visible";
-
-                a.item(5).style.visibility = "visible";
-                a.item(6).style.visibility = "visible";
-                a.item(7).style.visibility = "hidden";
-                a.item(8).style.visibility = "visible";
-                a.item(9).style.visibility = "visible";
-                
-                a.item(10).style.visibility = "visible";
-                a.item(11).style.visibility = "hidden";
-                a.item(12).style.visibility = "visible";
-                a.item(13).style.visibility = "hidden";
-                a.item(14).style.visibility = "visible";
-                
-                a.item(15).style.visibility = "visible";
-                a.item(16).style.visibility = "hidden";
-                a.item(17).style.visibility = "hidden";
-                a.item(18).style.visibility = "hidden";
-                a.item(19).style.visibility = "visible";
-                
-                a.item(20).style.visibility = "visible";
-                a.item(21).style.visibility = "hidden";
-                a.item(22).style.visibility = "hidden";
-                a.item(23).style.visibility = "hidden";
-                a.item(24).style.visibility = "visible";
-            }
 }
+function ampm(h) {
+    a=document.querySelectorAll(".ap")
+    if(h<12) {
+        a.item(0).style.visibility = "hidden";
+        a.item(1).style.visibility = "hidden";
+        a.item(2).style.visibility = "visible";
+        a.item(3).style.visibility = "hidden";
+        a.item(4).style.visibility = "hidden";
+
+        a.item(5).style.visibility = "hidden";
+        a.item(6).style.visibility = "visible";
+        a.item(7).style.visibility = "hidden";
+        a.item(8).style.visibility = "visible";
+        a.item(9).style.visibility = "hidden";
+        
+        a.item(10).style.visibility = "hidden";
+        a.item(11).style.visibility = "visible";
+        a.item(12).style.visibility = "visible";
+        a.item(13).style.visibility = "visible";
+        a.item(14).style.visibility = "hidden";
+        
+        a.item(15).style.visibility = "visible";
+        a.item(16).style.visibility = "hidden";
+        a.item(17).style.visibility = "hidden";
+        a.item(18).style.visibility = "hidden";
+        a.item(19).style.visibility = "visible";
+        
+        a.item(20).style.visibility = "visible";
+        a.item(21).style.visibility = "hidden";
+        a.item(22).style.visibility = "hidden";
+        a.item(23).style.visibility = "hidden";
+        a.item(24).style.visibility = "visible";
+    }else {
+        a.item(0).style.visibility = "visible";
+        a.item(1).style.visibility = "visible";
+        a.item(2).style.visibility = "visible";
+        a.item(3).style.visibility = "visible";
+        a.item(4).style.visibility = "visible";
+
+        a.item(5).style.visibility = "visible";
+        a.item(6).style.visibility = "hidden";
+        a.item(7).style.visibility = "hidden";
+        a.item(8).style.visibility = "hidden";
+        a.item(9).style.visibility = "visible";
+        
+        a.item(10).style.visibility = "visible";
+        a.item(11).style.visibility = "visible";
+        a.item(12).style.visibility = "visible";
+        a.item(13).style.visibility = "visible";
+        a.item(14).style.visibility = "visible";
+        
+        a.item(15).style.visibility = "visible";
+        a.item(16).style.visibility = "hidden";
+        a.item(17).style.visibility = "hidden";
+        a.item(18).style.visibility = "hidden";
+        a.item(19).style.visibility = "hidden"; 
+        
+        a.item(20).style.visibility = "visible";
+        a.item(21).style.visibility = "hidden";
+        a.item(22).style.visibility = "hidden";
+        a.item(23).style.visibility = "hidden";
+        a.item(24).style.visibility = "hidden";
+    }
+
+}
+function apm() {
+    a=document.querySelectorAll(".apm")
+        a.item(0).style.visibility = "visible";
+        a.item(1).style.visibility = "hidden";
+        a.item(2).style.visibility = "hidden";
+        a.item(3).style.visibility = "hidden";
+        a.item(4).style.visibility = "visible";
+
+        a.item(5).style.visibility = "visible";
+        a.item(6).style.visibility = "visible";
+        a.item(7).style.visibility = "hidden";
+        a.item(8).style.visibility = "visible";
+        a.item(9).style.visibility = "visible";
+        
+        a.item(10).style.visibility = "visible";
+        a.item(11).style.visibility = "hidden";
+        a.item(12).style.visibility = "visible";
+        a.item(13).style.visibility = "hidden";
+        a.item(14).style.visibility = "visible";
+        
+        a.item(15).style.visibility = "visible";
+        a.item(16).style.visibility = "hidden";
+        a.item(17).style.visibility = "hidden";
+        a.item(18).style.visibility = "hidden";
+        a.item(19).style.visibility = "visible";
+        
+        a.item(20).style.visibility = "visible";
+        a.item(21).style.visibility = "hidden";
+        a.item(22).style.visibility = "hidden";
+        a.item(23).style.visibility = "hidden";
+        a.item(24).style.visibility = "visible";
+    }
 // 시간 함수
 function time(a,b,c) {
-    let date = new Date();
-    let h=date.getHours();
-    let m=date.getMinutes();
-    let s=date.getSeconds();
-      if(h<12) {
-        DgNum10(a,Math.floor(0),"black");
-        DgNum1(a,h%12,"black");
-      }else {
-        DgNum10(a,Math.floor(1),"black");
-        DgNum1(a,h%10,"black");
-      }
-        DgNum10(b,Math.floor(m/10),"black");
-        DgNum1(b,m%10,"black");
-        DgNum10(c,Math.floor(s/10),"black");
-        DgNum1(c,s%10,"black");
-        ampm(ap,h,"black")
-        apm(apm,"black")
+let date = new Date();
+let h=date.getHours();
+let m=date.getMinutes();
+let s=date.getSeconds();
+if(h>12) {
+DgNum10(a,Math.floor(0),"black");
+DgNum1(a,h%12,"black");
+}else {
+DgNum10(a,Math.floor(1),"black");
+DgNum1(a,h%10,"black");
 }
-
-
+DgNum10(b,Math.floor(m/10),"black");
+DgNum1(b,m%10,"black");
+DgNum10(c,Math.floor(s/10),"black");
+DgNum1(c,s%10,"black");
+ampm(h)
+apm()
+}
 
 // 시계 작동
 setInterval(function() {
