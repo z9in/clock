@@ -81,8 +81,13 @@ li {
     height: 80%;
     display: flex;
 }
-.secBox {
+.smallBox{
     width: 10%;
+    height: 80%;
+    dispay: flex;    
+}
+.secBox, .apmpBox {
+    width: 100%;
     height: 20%;
     display: flex;
     border-radius: 10px;
@@ -106,7 +111,7 @@ li {
     align-items: center;
     box-sizing: border-box;
 }
-.numH1, .numH2, .numM1, .numM2, .numS1, .numS2 {
+.numH1, .numH2, .numM1, .numM2, .numS1, .numS2, .apBox, .apmBox {
     background-color: black;
     width: 22%;
     height: 90%;
