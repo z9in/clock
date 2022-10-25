@@ -553,10 +553,10 @@ let h=date.getHours();
 let m=date.getMinutes();
 let s=date.getSeconds();
 if(h>12) {
-DgNum10(a,Math.floor(0),"black");
+DgNum10(a,Math.floor((h-12)/12),"black");
 DgNum1(a,h%12,"black");
 }else {
-DgNum10(a,Math.floor(1),"black");
+DgNum10(a,Math.floor(h/12),"black");
 DgNum1(a,h%10,"black");
 }
 DgNum10(b,Math.floor(m/10),"black");
