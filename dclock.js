@@ -607,15 +607,46 @@ setInterval(function() {
     }
 }, 100)
 
-function changeText(i) {
-    if(i==1) {
+let num1=1;
+let num2=1;
+let num3=1;
+let num4=1;
+function changeText1() {
+    if(num1==1) {
         document.getElementById('p1').innerHTML=`<del>입실 체크</del> 완료!!`
-    }else if(i==2) {
+        ++num1
+    }else {
+        document.getElementById('p1').innerHTML="입실 체크"
+        num1--
+    } return;
+}
+function changeText2() {
+    if(num2==1) {
         document.getElementById('p2').innerHTML=`<del>오전 수업</del> 완료!!`
-    }else if(i==3) {
+        num2++
+    }else if(num2==2) {
+        document.getElementById('p2').innerHTML=`오전 수업`
+        num2--
+    }
+}
+function changeText3() {
+  
+    if(num3==1) {
         document.getElementById('p3').innerHTML=`<del>오후 수업</del> 완료!!`
-    }else if(i==4) {
+        num3++
+    }else if(num3==2) {
+        document.getElementById('p3').innerHTML=`오후 수업`
+        num3--
+    }
+}
+function changeText4() {
+   
+    if(num4==1) {
         document.getElementById('p4').innerHTML=`<del>퇴실 체크</del> 완료!!`
+        num4++
+    }else if(num4==2) {
+        document.getElementById('p4').innerHTML=`퇴실 체크`
+        num4--
     }
 }
 setInterval(function() {
