@@ -584,7 +584,7 @@ const ddEl = document.getElementsByClassName('dd')[0]
 const dayEl = document.getElementsByClassName('day')[0]
 setInterval(function() {
     let d = new Date();
-    let mm = d.getMonth();
+    let mm = d.getMonth()+1;
     let dd = d.getDate();
     let day = d.getDay();
     let s = d.getSeconds();
